@@ -1213,9 +1213,8 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3906"
-			(pin_names
-				(offset 0) hide)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1228,7 +1227,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3906"
+			(property "Value" "AO3401A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1237,7 +1236,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1248,8 +1247,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1258,7 +1257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1267,7 +1266,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PNP Transistor"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1276,7 +1275,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1285,10 +1284,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3906_0_1"
+			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1300,7 +1299,55 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1312,10 +1359,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1324,7 +1371,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -1334,9 +1393,33 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1345,12 +1428,34 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "2N3906_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1365,10 +1470,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,7 +1491,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1417,16 +1522,22 @@
 		(uuid "1a7196b2-3be6-48f9-ba6a-fcc9e2fcf3a5")
 	)
 	(junction
+		(at 181.61 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a47566-8b58-44cc-8893-e549d0437ab9")
+	)
+	(junction
 		(at 139.7 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4feacbdd-bd9c-42ad-8332-2395235e8e3e")
 	)
 	(junction
-		(at 121.92 74.93)
+		(at 160.02 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5111a537-5160-40df-a84f-fd5d53dfff43")
+		(uuid "70d30d15-f7a0-45cd-bff3-76752490907f")
 	)
 	(junction
 		(at 160.02 63.5)
@@ -1453,16 +1564,22 @@
 		(uuid "c7be6162-847e-42e0-a014-acff7de5525e")
 	)
 	(junction
-		(at 121.92 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb163cb0-4a73-4432-a826-4f4286ea90a7")
-	)
-	(junction
 		(at 139.7 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da493940-0d3f-4a39-a72f-f08e2c9b652b")
+	)
+	(junction
+		(at 160.02 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f7d094-e0cb-4c54-b2b3-39240e3d83a4")
+	)
+	(junction
+		(at 181.61 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2975741-3622-4b26-b973-f498ac640382")
 	)
 	(no_connect
 		(at 93.98 52.07)
@@ -1490,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 64.77) (xy 190.5 64.77)
+			(xy 193.04 69.85) (xy 194.31 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1510,6 +1627,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f09ab9e-bbd3-44ec-8dda-83126e4e85b6")
+	)
+	(wire
+		(pts
 			(xy 153.67 53.34) (xy 153.67 58.42)
 		)
 		(stroke
@@ -1520,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 121.92 83.82)
+			(xy 111.76 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 46.99) (xy 160.02 46.99)
+			(xy 193.04 46.99) (xy 181.61 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 63.5) (xy 189.23 64.77)
+			(xy 193.04 63.5) (xy 193.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1610,13 +1737,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 69.85) (xy 189.23 69.85)
+			(xy 194.31 74.93) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63638a0d-7d9f-4c56-beaf-497e1d9279b0")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab5b11a-e6fc-4f4a-934f-b5943d1d8d48")
 	)
 	(wire
 		(pts
@@ -1670,13 +1807,33 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 139.7 83.82)
+			(xy 181.61 46.99) (xy 181.61 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a214f50-dbe2-4000-98c5-d12e8ed970ce")
+		(uuid "83f5c660-3438-4dde-8d21-284df9996745")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f823cb4-a71e-4f83-a354-963be8bacbeb")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9513d3f5-859e-4d4e-ba6e-c6abb7008a42")
 	)
 	(wire
 		(pts
@@ -1687,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "9bc5a5d2-e782-492a-bfd9-fb14bbfe399a")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfa05bb-935b-49ec-a2ad-c5797d4f5497")
 	)
 	(wire
 		(pts
@@ -1790,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 76.2)
+			(xy 160.02 74.93) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 139.7 83.82)
+			(xy 193.04 83.82) (xy 160.02 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +2007,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 46.99) (xy 189.23 53.34)
+			(xy 160.02 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28844ce-f336-4cd2-9fb7-c284c43f7593")
+	)
+	(wire
+		(pts
+			(xy 193.04 46.99) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1850,33 +2027,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 69.85) (xy 189.23 83.82)
+			(xy 193.04 74.93) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd3081aa-c42c-49e2-b3af-4c1f29515037")
-	)
-	(wire
-		(pts
-			(xy 180.34 58.42) (xy 181.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f0d733-c982-4b62-9888-4669187ffb39")
-	)
-	(wire
-		(pts
-			(xy 156.21 74.93) (xy 160.02 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34f3aaf-1b4f-4507-9119-809f8c4d6476")
 	)
 	(wire
 		(pts
@@ -1982,6 +2139,82 @@
 			(project ""
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 190.5 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1546914c-1f01-4bc4-92c2-0d7e16d5b8d6")
+		(property "Reference" "Q2"
+			(at 196.85 59.6901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 196.85 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 195.58 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce24f589-1420-4447-8a73-53b36afd2be6")
+		)
+		(pin "2"
+			(uuid "8ed492f7-3c65-40fa-8641-ba844bbebdc0")
+		)
+		(pin "3"
+			(uuid "9bf03b86-e83d-47e6-8336-9ebf413b5b4f")
+		)
+		(instances
+			(project ""
+				(path "/d8933e53-1592-4685-95eb-2622e257800f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2130,7 +2363,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 193.04 67.31 0)
+		(at 196.85 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2372,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b755ab3-dca1-42d3-aa05-eabc7a528ab9")
 		(property "Reference" "BZ1"
-			(at 196.85 66.0399 0)
+			(at 200.66 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2381,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 196.85 68.5799 0)
+			(at 200.66 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 192.405 64.77 90)
+			(at 196.215 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 192.405 64.77 90)
+			(at 196.215 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2408,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 193.04 67.31 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 121.92 80.01 0)
+		(at 160.02 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2442,7 @@
 		(fields_autoplaced yes)
 		(uuid "520021d2-be20-49f6-91b3-52e7a5d33c02")
 		(property "Reference" "C2"
-			(at 125.73 78.1049 0)
+			(at 163.83 78.1049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2451,7 @@
 			)
 		)
 		(property "Value" "0.47µF"
-			(at 125.73 80.6449 0)
+			(at 163.83 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 121.92 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 121.92 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,80 +2496,6 @@
 			(project ""
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 100.33 49.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cc7236f-eec9-4acb-8e2f-17cbc4e43148")
-		(property "Reference" "Q1"
-			(at 100.33 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 100.33 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 98.425 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1de88bc3-e75d-4bc2-91a7-92b9d0c3b8d6")
-		)
-		(pin "1"
-			(uuid "d8b37da7-9694-478c-880c-f8f643886810")
-		)
-		(pin "3"
-			(uuid "598f2f5a-431a-4727-8c8f-4a4091091e69")
-		)
-		(instances
-			(project ""
-				(path "/d8933e53-1592-4685-95eb-2622e257800f"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "100Ω"
 			(at 102.87 60.9599 0)
 			(effects
 				(font
@@ -2571,6 +2730,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 181.61 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b7b56d8-75df-4323-978f-075c6edf641b")
+		(property "Reference" "Rpullup1"
+			(at 184.15 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 184.15 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 182.626 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bf8dde9-f17b-4fe6-8fa7-12e65c5b6b9e")
+		)
+		(pin "2"
+			(uuid "e5694c34-22b2-4c3e-93cc-6ab8951eb3b5")
+		)
+		(instances
+			(project "beeping-easter-egg"
+				(path "/d8933e53-1592-4685-95eb-2622e257800f"
+					(reference "Rpullup1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 160.02 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2657,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220Ω"
+		(property "Value" "100Ω"
 			(at 175.2601 60.96 0)
 			(effects
 				(font
@@ -2709,35 +2937,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 186.69 58.42 0)
-		(mirror x)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 100.33 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3624705-56e8-4dc1-a15f-ebe817a7c79d")
-		(property "Reference" "Q2"
-			(at 191.77 59.6901 0)
+		(fields_autoplaced yes)
+		(uuid "ff449818-837c-4a89-b671-1784567dbe01")
+		(property "Reference" "Q1"
+			(at 100.33 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2N3906"
-			(at 191.77 57.1501 0)
+		(property "Value" "AO3401A"
+			(at 100.33 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 191.77 56.515 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 102.235 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,8 +2973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 186.69 58.42 0)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,8 +2983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 186.69 58.42 0)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 100.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,18 +2993,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ced0ddc-fb92-43b2-9d05-eab28fd9a357")
+			(uuid "0d49ea95-84b3-47fb-a272-32c2df7da292")
 		)
 		(pin "2"
-			(uuid "efad067c-b4d1-45a4-aee8-363d133c675a")
+			(uuid "22807c25-9aee-4e72-a3f9-ff04e78e999c")
 		)
 		(pin "3"
-			(uuid "9ff0748b-fe86-4ad1-93e4-87493813fdb9")
+			(uuid "adc5a305-6511-45cd-8fd5-644bf599544c")
 		)
 		(instances
 			(project ""
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
