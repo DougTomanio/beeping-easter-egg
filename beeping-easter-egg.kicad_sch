@@ -2145,7 +2145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1MΩ"
+		(property "Value" "10MΩ"
 			(at 162.56 69.8499 0)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47µF"
+		(property "Value" "0.047µF"
 			(at 163.83 80.6449 0)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c41d66a-5a4b-4720-8d9c-a0d3ee0a598b")
-		(property "Reference" "Rg1"
+		(property "Reference" "R3"
 			(at 99.06 58.4199 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 		(instances
 			(project "beeping-easter-egg"
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
-					(reference "Rg1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2859,7 +2859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b7b56d8-75df-4323-978f-075c6edf641b")
-		(property "Reference" "Rpullup1"
+		(property "Reference" "R5"
 			(at 184.15 50.7999 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 		(instances
 			(project "beeping-easter-egg"
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
-					(reference "Rpullup1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510kΩ"
+		(property "Value" "5MΩ"
 			(at 162.56 59.6899 0)
 			(effects
 				(font
@@ -2998,7 +2998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a4eb3e-9e0e-4fe8-a6fb-66666cbb2e04")
-		(property "Reference" "Rg2"
+		(property "Reference" "R4"
 			(at 177.8001 60.96 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 		(instances
 			(project "beeping-easter-egg"
 				(path "/d8933e53-1592-4685-95eb-2622e257800f"
-					(reference "Rg2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
