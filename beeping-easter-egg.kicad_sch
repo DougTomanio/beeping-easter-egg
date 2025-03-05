@@ -2938,7 +2938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5MΩ"
+		(property "Value" "5.1MΩ"
 			(at 162.56 59.6899 0)
 			(effects
 				(font
