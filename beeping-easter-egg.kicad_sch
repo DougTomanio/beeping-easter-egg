@@ -2361,7 +2361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:BAT-TH_BS-04-A1BJ004"
 			(at 48.26 87.376 90)
 			(effects
 				(font
@@ -2519,7 +2519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000"
 			(at 48.26 76.2 0)
 			(effects
 				(font
