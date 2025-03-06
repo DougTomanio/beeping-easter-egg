@@ -106,7 +106,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "BS-04-A1BJ004"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "e41be57a-29b3-4785-8605-12bbf73835ed")
@@ -117,7 +117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012181808_MYOUNG-BS-04-A1BJ004_C964750.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -296,7 +296,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 0)
+			(at 1.8125 1.585 90)
 			(layer "F.Fab")
 			(uuid "07c42b77-31ca-469a-a668-f7072ebdedb1")
 			(effects
@@ -561,8 +561,8 @@
 				)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 3.8 7.4 90)
+		(property "Value" "TMB12A03"
+			(at 3.75 3.25 90)
 			(layer "F.Fab")
 			(uuid "37f36ee5-d4e3-4eae-83ed-e7b2c3a2ac35")
 			(effects
@@ -572,7 +572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2112021630_Jiangsu-Huaneng-Elec-TMB12A03_C96222.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -746,7 +746,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 0 1.43 90)
+			(at 0.335 1.25 90)
 			(layer "F.Fab")
 			(uuid "90bb49a0-e5b8-4795-acf2-c7f1e1bcced8")
 			(effects
@@ -959,8 +959,8 @@
 				)
 			)
 		)
-		(property "Value" "TLC555xD"
-			(at 0 3.4 0)
+		(property "Value" "TLC555CDR"
+			(at 1.275 -3.355 0)
 			(layer "F.Fab")
 			(uuid "5ac074c2-89fd-4b92-8fce-3fcd6389ee66")
 			(effects
@@ -1276,7 +1276,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 1.43 90)
+			(at 3.225 0 90)
 			(layer "F.Fab")
 			(uuid "646500db-5854-465f-9fd5-0ea6a97ca691")
 			(effects
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Value" "5.1MΩ"
-			(at 0 1.43 90)
+			(at -2.275 -1.25 90)
 			(layer "F.Fab")
 			(uuid "7b6f3a23-4c93-4679-be7a-f173e1f9fa43")
 			(effects
@@ -1704,7 +1704,7 @@
 			)
 		)
 		(property "Value" "10MΩ"
-			(at 0 1.43 90)
+			(at 0 -1.25 90)
 			(layer "F.Fab")
 			(uuid "09b4e4fd-6701-4510-8214-9eda899804cd")
 			(effects
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 0)
+			(at -0.0625 -5 90)
 			(layer "F.Fab")
 			(uuid "2beb9899-e342-4334-8b53-00d3c71ccb2b")
 			(effects
@@ -2184,7 +2184,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.43 90)
+			(at -2.835 0.1525 90)
 			(layer "F.Fab")
 			(uuid "c125c4a1-a70b-45cf-a26e-a0fd15569cf5")
 			(effects
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.43 0)
+			(at -0.275 1.24 0)
 			(layer "F.Fab")
 			(uuid "39fd27d1-ed5f-4fdf-aab8-58c021b26e7c")
 			(effects
@@ -2612,7 +2612,7 @@
 			)
 		)
 		(property "Value" "300Ω"
-			(at 0 1.43 90)
+			(at -0.335 -1 90)
 			(layer "F.Fab")
 			(uuid "b40e5923-c880-492a-91e1-0d5b8a924e5d")
 			(effects
@@ -2826,7 +2826,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.43 0)
+			(at -0.325 -1.24 0)
 			(layer "F.Fab")
 			(uuid "1b2b027f-08ca-4ff3-81b6-804a44efa1c5")
 			(effects
@@ -3038,7 +3038,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "YUEN FUNG ST-0-102-A01-T000-LF"
 			(at 0 -4 180)
 			(layer "B.Fab")
 			(uuid "7ab4ecec-a732-4c23-96f4-35317a4a4c06")
@@ -3050,7 +3050,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2307200931_YUEN-FUNG-ST-0-102-A01-T000-LF_C1788487.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
