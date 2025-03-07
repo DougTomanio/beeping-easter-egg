@@ -3613,6 +3613,18 @@
 		(layer "Edge.Cuts")
 		(uuid "796dadfd-a6f4-452b-9b11-1d03646ccf77")
 	)
+	(gr_text "github.com/DougTomanio\n/beeping-easter-egg"
+		(at 150.91 118.09 35)
+		(layer "F.SilkS")
+		(uuid "63387b3a-c03a-44bf-a7a2-5db1320955d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 136.41 110.81 0)
 		(layer "F.SilkS")
