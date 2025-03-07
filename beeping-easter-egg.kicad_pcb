@@ -3627,7 +3627,7 @@
 	)
 	(gr_text "github.com/DougTomanio\n/beeping-easter-egg"
 		(at 150.91 118.09 35)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "63387b3a-c03a-44bf-a7a2-5db1320955d0")
 		(effects
 			(font
