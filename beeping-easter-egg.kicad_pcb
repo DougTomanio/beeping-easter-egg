@@ -91,7 +91,7 @@
 	(net 10 "Net-(U1-DIS)")
 	(net 11 "Net-(U1-Q)")
 	(net 12 "unconnected-(SW1-C-Pad3)")
-	(footprint "easyeda2kicad:BAT-TH_BS-04-A1BJ004"
+	(footprint "Library:BAT-TH_BS-04-A1BJ004"
 		(layer "F.Cu")
 		(uuid "033df7b9-45e4-427a-96f8-4e6ed12bcbd3")
 		(at 148.5 103.5)
@@ -146,7 +146,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0b85992-660e-4fd3-9928-495fe7d85aa4")
+			(uuid "b83399ba-fd64-41a5-9762-85ae8c8f32bb")
 			(effects
 				(font
 					(size 1 1)
@@ -166,7 +166,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7f1ca43b-ca52-493e-9763-3668522d6842")
+			(uuid "f10b555d-de92-4586-b7a4-e920585d2921")
 		)
 		(fp_line
 			(start 7.18 3.05)
@@ -176,7 +176,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00fd3850-eff1-46f4-bc9c-4d038917f0f0")
+			(uuid "05036a2a-779b-439e-89bc-b0ff2e90e9f6")
 		)
 		(fp_line
 			(start 12.26 -3.05)
@@ -186,7 +186,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a82ea92-1d3f-4f95-9dda-9f6145d1892e")
+			(uuid "5c68dbfb-1026-4da7-baf0-c35c0e4bd0bf")
 		)
 		(fp_arc
 			(start 7.18 3.05)
@@ -197,7 +197,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "03af2d76-6a06-42fa-bba1-4a6fe12f4a51")
+			(uuid "96b3d2fc-f3a8-4054-8c0d-00077222f393")
 		)
 		(fp_circle
 			(center -10 0)
@@ -208,7 +208,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d9f88a63-c155-499a-8682-f5d1dfc795f3")
+			(uuid "b5a6e1cb-fcbc-4af0-a78f-5afda4f78171")
 		)
 		(fp_circle
 			(center 10 0)
@@ -219,7 +219,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e1f4b3a5-ce63-46c6-affd-785e972bbbb0")
+			(uuid "8ed7644c-4f4b-4304-96a2-ab90665629a7")
 		)
 		(fp_circle
 			(center 12.38 -11.71)
@@ -230,7 +230,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dc34579d-b30b-4cb6-ac10-1f4f487ecd2f")
+			(uuid "aeadd19c-5d4f-4f9e-af95-9ad9d9ef1099")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -266,7 +266,7 @@
 			(uuid "a74e3ca1-dbd8-493e-bb18-05f3703eaabd")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/BAT-TH_BS-04-A1BJ004.wrl"
+		(model "/Library.3dshapes/BAT-TH_BS-04-A1BJ004.wrl"
 			(offset
 				(xyz -1.5 -0 2)
 			)
@@ -3411,7 +3411,7 @@
 			)
 		)
 	)
-	(footprint "easyeda2kicad:SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000"
+	(footprint "Library:SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000"
 		(layer "B.Cu")
 		(uuid "46aeea1c-2cd0-4280-98f6-e6b433c9c04f")
 		(at 150 100)
@@ -3470,7 +3470,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5accc187-7a23-4ff1-a15a-982a7c1fe36e")
+			(uuid "3cdc2ffc-fc8d-487c-a8e2-c7d600497c4c")
 			(effects
 				(font
 					(size 1 1)
@@ -3491,7 +3491,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "426daa4b-0d37-4e9b-8b85-586d61595beb")
+			(uuid "5a80ac89-4b3a-4775-af21-5aec57b3d04f")
 		)
 		(fp_line
 			(start -4.15 2.6)
@@ -3501,7 +3501,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8430ffeb-4c00-46bf-92b4-0c016c22862d")
+			(uuid "dc62067c-ccab-4a24-ba9f-cf5040b4b476")
 		)
 		(fp_line
 			(start 4.15 -2.6)
@@ -3511,7 +3511,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d8d65fcc-4664-48be-8588-e253d855219a")
+			(uuid "4112ac11-a0de-425d-8c12-ea26085db488")
 		)
 		(fp_line
 			(start 4.15 2.6)
@@ -3521,7 +3521,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "595f9411-aeb1-4b8e-8697-991308bfd947")
+			(uuid "916a816a-8d6d-4888-9a73-3311cd068010")
 		)
 		(fp_arc
 			(start -1.848515 -1.12677)
@@ -3532,7 +3532,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "25eac703-dc8a-429b-a62a-a96da3325af5")
+			(uuid "22295a0c-4320-42e3-8c6d-d6bbf9925cb5")
 		)
 		(fp_arc
 			(start 1.848515 1.12677)
@@ -3543,7 +3543,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ff071149-8a69-4eb0-9c14-284f50214e28")
+			(uuid "2aba87aa-5149-48db-8e38-e9fc6d650ff0")
 		)
 		(fp_circle
 			(center -4.15 -2.6)
@@ -3554,7 +3554,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "118b850d-bd52-4671-8ab2-d2962953b939")
+			(uuid "69c7ddb8-150e-4248-bed0-9c290c066008")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -3602,7 +3602,7 @@
 			(uuid "6aa70b5e-8820-4859-b0e9-c4121325f898")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/douglastomanio/Downloads/3D_PCB1_2025-03-05.step"
+		(model "/Library.3dshapes/3D_PCB1_2025-03-05.step"
 			(offset
 				(xyz -4.28 7.73 -1.64)
 			)
