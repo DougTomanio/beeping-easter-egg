@@ -797,7 +797,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c2f9d718-7dcf-4e91-ac89-6d43056ee51e")
+			(uuid "b90c5f8b-2890-41cd-9af7-4382bb41bce0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -816,13 +816,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "a1bc2b3f-f883-4332-8cf3-d61fcaec5fc7")
+			(uuid "27873d20-ed13-45ba-b6cb-4adf71dda2eb")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "dbf92267-48ba-4856-9b1f-0acd2cd606da")
+			(uuid "d178be1b-d628-4710-a6f5-90f434f692c7")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -2365,7 +2365,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "149944ed-9eda-4ee8-8357-6c3adfcfdeab")
+			(uuid "ef9d6f34-d37d-4c7c-ade0-4f7986c13153")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2384,13 +2384,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "8b214c89-5133-4ff0-8738-a7a60ded56cb")
+			(uuid "c9126b24-bf22-49b3-b3a4-c68704fb0923")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "4773b420-f1e5-42cd-8b26-7d1d538d0bdb")
+			(uuid "981fe2bc-0cf0-4065-9dfa-f4ef54777e04")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -2923,7 +2923,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0e296a0b-e8f7-4e0b-92cc-5509425ffb6a")
+			(uuid "98ad8d99-d98f-432c-ac39-a2acb97b8048")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2942,13 +2942,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "ea213f94-1468-40e2-b650-44e36f190113")
+			(uuid "872b279c-0747-4e87-8103-0fd1ddf460a6")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "3a178ef9-3b5c-4452-adec-2bc22689571b")
+			(uuid "bed5c236-e641-4bae-b1c6-9beff239b72f")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
