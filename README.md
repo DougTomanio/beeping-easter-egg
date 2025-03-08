@@ -1,14 +1,14 @@
 # Beeping Easter Egg 🥚🔊
 
 <p float="center">
-  <img src="./render_top_isometric.png" width="400" />
-  <img src="./render_bottom_isometric.png" width="400" />
+  <img src="./renders/render_top_isometric.png" width="400" />
+  <img src="./renders/render_bottom_isometric.png" width="400" />
 </p>
 <p float="center">
-  <img src="./render_top.png" width="400" /> 
-  <img src="./render_bottom.png" width="400" />
+  <img src="./renders/render_top.png" width="400" /> 
+  <img src="./renders/render_bottom.png" width="400" />
 </p>
-<img src="beeping-easter-egg.svg" />
+<img src="renders/beeping-easter-egg.svg" />
 
 ## Generate fabrication files
 ```
