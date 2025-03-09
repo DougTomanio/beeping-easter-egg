@@ -154,6 +154,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7da4192-07b2-4f5d-be51-81cca3eed00f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0cd3f048-f86e-4d97-bbaf-25f483faa449")
 		(sheetname "/")
 		(sheetfile "beeping-easter-egg.kicad_sch")
@@ -336,6 +349,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdcd52b5-62ec-42c4-8950-593fbd2eaf84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "002733d4-35a6-4e5c-a32d-c0e64b6e22a1")
 			(effects
 				(font
 					(size 1 1)
@@ -611,6 +637,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c0f05c7-0d68-40a3-99c8-aa2918ad44c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Buzzer*")
 		(path "/622b61cd-5601-4d34-9ba7-b736144efe56")
 		(sheetname "/")
@@ -783,6 +822,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8389af6-9bd7-4804-9384-375c7ff1dc3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/b82ed287-1f7c-4985-9e3c-1377a2b58131")
 		(sheetname "/")
@@ -797,7 +849,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b6dec2e7-5d8c-44e5-98c3-261d062af010")
+			(uuid "25243321-3690-431d-8270-fe8900b5467b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -816,13 +868,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "04bf43ef-36ad-47a4-944a-af8f3fcd5c5c")
+			(uuid "301b9747-d762-4c11-9bb8-7e38f69e2b8e")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "b25373f3-c763-4e9f-8cc3-f8660a734913")
+			(uuid "f493d189-090b-4d70-8985-12e6d939a5f8")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -918,6 +970,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "219a521f-7c57-47e4-bbee-5f571cf2ba51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c01ca5be-53ad-4f99-8383-0b41bde90d11")
 			(effects
 				(font
 					(size 1 1)
@@ -1130,6 +1195,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71728b4e-196a-49ed-8c57-5cec8d6bfa69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;270"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "521aecd1-0ca9-40ab-92c9-7f2e8ef1123d")
 			(effects
 				(font
 					(size 1 1)
@@ -1455,6 +1533,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a20825f-1988-4370-9c4b-47c77cee4c6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c92f054e-6b8c-4f43-b225-5cc7a2b4f0cf")
 		(sheetname "/")
@@ -1662,6 +1753,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16c57b07-d99f-445c-bd4a-88c5e54fc977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4b58724-83ec-49ed-b7a4-48cb014a9ded")
 			(effects
 				(font
 					(size 1 1)
@@ -1883,6 +1987,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8be483f-f5bf-4e32-97b9-06d7fab696bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7f2f0281-4d3f-4c11-b89c-9e254d341035")
 		(sheetname "/")
@@ -2088,6 +2205,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a73a7bf5-d7f1-4de5-976a-02daaae94ac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "725a1f4e-0fcc-4db7-9656-21622de919c4")
 			(effects
 				(font
 					(size 1 1)
@@ -2351,6 +2481,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73be22ea-c375-45f4-af29-dee6a71cb745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/bdafd6eb-034d-4a93-b9d6-0d0da4bd2102")
 		(sheetname "/")
@@ -2365,7 +2508,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "51af642d-7a70-4f24-a451-db0eb7449704")
+			(uuid "13e6bd19-2752-4dee-9420-d3a64a552186")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2384,13 +2527,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "9d449c0c-876a-46f6-8ab1-d6da3d3cbbe1")
+			(uuid "8f1122a6-e6da-4b95-9563-63f6667692e5")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "6aaccd77-4256-4168-876e-1a7259891aa8")
+			(uuid "e06a3e40-369d-4808-8a6c-1e4dd091712d")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -2486,6 +2629,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "432b1ed4-6582-4dc7-bcde-9ae841073f09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dec9f4f-cec1-420c-9e58-5eab059c9d8a")
 			(effects
 				(font
 					(size 1 1)
@@ -2707,6 +2863,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "533d66d7-2975-4736-8d4b-ba037d143b92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6c97cae7-e0c1-4bc9-885f-cff5b4c01247")
 		(sheetname "/")
@@ -2909,6 +3078,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e47f13b-5a39-4e3a-883a-b9ca57628ada")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6bada503-dcd6-4956-826b-fdcf55c39d10")
 		(sheetname "/")
@@ -2923,7 +3105,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "253bac19-4140-4579-9465-566657adc025")
+			(uuid "4261760f-5167-404e-b7cb-e648b63ac082")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2942,13 +3124,13 @@
 			(drill 1.152)
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.074)
-			(uuid "bd2e95b1-cde4-42ba-b4b9-32476bbc45ac")
+			(uuid "0ab4a39a-0b94-46fd-8103-bd99e663f4a0")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "a108f95c-5d8c-4f8f-b572-63b408c8e80c")
+			(uuid "3dfd4b1c-0958-44ab-a2c6-3dd083abe2be")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -3043,6 +3225,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ec57003-fcc6-440f-bee5-a89fa3cd34ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1181e69-38d5-4a25-80c4-01037469d0df")
 			(effects
 				(font
 					(size 1 1)
@@ -3264,6 +3459,19 @@
 				)
 			)
 		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efeb7972-e13c-4f19-9c3c-bed792426fb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ed2a66d3-197d-4de8-8533-e29e181c28b5")
 		(sheetname "/")
@@ -3471,6 +3679,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3cdc2ffc-fc8d-487c-a8e2-c7d600497c4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc335930-deaa-4b54-8c15-f331ac78f302")
 			(effects
 				(font
 					(size 1 1)
