@@ -21,7 +21,6 @@ docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/scripts/generate-render
 ```
 
 ## KiCad plugins / tools / scripts
-* https://github.com/bennymeg/Fabrication-Toolkit
 * https://github.com/yaqwsx/KiKit
 * https://github.com/uPesy/easyeda2kicad.py
 
