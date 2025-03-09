@@ -589,6 +589,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB_CORRECTION",
+          "name": "JLCPCB_CORRECTION",
+          "show": true
         }
       ],
       "filter_string": "",
