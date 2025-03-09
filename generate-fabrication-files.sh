@@ -12,10 +12,10 @@ kikit panelize \
     --layout 'hspace: 2mm; vspace: 2mm; rows: 2; cols: 2' \
     --tabs 'type: fixed' \
     --cuts 'type: mousebites' \
-    --framing 'type: railstb' \
-    --tooling 'type: 4hole; hoffset: 5mm; voffset: 2.5mm' \
-    --fiducials 'type: 4fid; hoffset: 10mm; voffset: 2.5mm; coppersize: 2mm' \
-    --text 'type: simple; voffset: 2.5mm; text: JLCJLCJLCJLC' \
+    --framing 'type: frame; width: 6mm' \
+    --tooling 'type: 4hole; hoffset: 14mm; voffset: 3mm' \
+    --fiducials 'type: 3fid; hoffset: 20mm; voffset: 3.85mm; coppersize: 2mm' \
+    --text 'type: simple; anchor: ml; orientation: 90deg; hoffset: 3mm; text: JLCJLCJLCJLC' \
     '/app/beeping-easter-egg.kicad_pcb' '/app/beeping-easter-egg-panelized.kicad_pcb'
 
 kikit fab jlcpcb /app/beeping-easter-egg.kicad_pcb /app/fab --assembly --schematic /app/beeping-easter-egg.kicad_sch
