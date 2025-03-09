@@ -25,9 +25,12 @@ docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/generate-renders-for-re
 * https://github.com/yaqwsx/KiKit
 * https://github.com/uPesy/easyeda2kicad.py
 
+## Component calculations
+[component-calculations.md](component-calculations.md)
+
 ## TODO
 * Try KiCad jobset to replace generate-renders-for-readme.sh
 * Use official KiKit docker image once it supports KiCad 9
-
-## Component calculations
-[component-calculations.md](component-calculations.md)
+* Find a proper 3D model for switch
+* Fix rotation of components for jlcpcb fab
+    * https://yaqwsx.github.io/KiKit/v1.3/fabrication/jlcpcb/#assembly:~:text=is%20specified%20by-,JLCPCB_CORRECTION,-field.%20The%20field
