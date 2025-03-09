@@ -6,6 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "github.com/DougTomanio/beeping-easter-egg")
+		(rev "A")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
