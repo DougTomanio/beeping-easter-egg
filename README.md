@@ -12,12 +12,12 @@
 
 ## Generate fabrication files
 ```
-docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/generate-fabrication-files.sh
+docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/scripts/generate-fabrication-files.sh
 ```
 
 ## Generate render pngs and schematic svg
 ```
-docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/generate-renders-for-readme.sh
+docker run --rm -v ${PWD}:/app kicad/kicad:9.0 bash /app/scripts/generate-renders-for-readme.sh
 ```
 
 ## KiCad plugins / tools / scripts
