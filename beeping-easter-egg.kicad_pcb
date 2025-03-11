@@ -1567,7 +1567,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1MΩ"
+		(property "Value" "10MΩ"
 			(at -2.275 -1.25 90)
 			(layer "F.Fab")
 			(uuid "7b6f3a23-4c93-4679-be7a-f173e1f9fa43")
@@ -1604,7 +1604,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13320"
+		(property "LCSC" "C7250"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1794,7 +1794,7 @@
 				)
 			)
 		)
-		(property "Value" "10MΩ"
+		(property "Value" "5.1MΩ"
 			(at 0 -1.25 90)
 			(layer "F.Fab")
 			(uuid "09b4e4fd-6701-4510-8214-9eda899804cd")
@@ -1831,7 +1831,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7250"
+		(property "LCSC" "C13320"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
