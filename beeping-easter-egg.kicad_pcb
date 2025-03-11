@@ -3419,7 +3419,7 @@
 		(layer "Edge.Cuts")
 		(uuid "796dadfd-a6f4-452b-9b11-1d03646ccf77")
 	)
-	(gr_text "Beeping Easter Egg\nRev A"
+	(gr_text "Beeping Easter Egg\nRev B"
 		(at 150 111.5 0)
 		(layer "B.Cu")
 		(uuid "63387b3a-c03a-44bf-a7a2-5db1320955d0")

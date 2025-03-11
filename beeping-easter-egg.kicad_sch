@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Beeping Easter Egg")
-		(rev "A")
+		(rev "B")
 		(company "github.com/DougTomanio/beeping-easter-egg")
 	)
 	(lib_symbols
