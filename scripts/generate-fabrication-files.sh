@@ -9,8 +9,8 @@ if [ "$HOME" == "/home/kicad" ]; then
 fi
 
 kikit panelize \
-    --layout "hspace: 2mm; vspace: 2mm; rows: ${ROWS=2}; cols: ${COLS=2}" \
-    --tabs 'type: corner; width: 5mm' \
+    --layout "hspace: 8mm; vspace: 8mm; rows: ${ROWS=2}; cols: ${COLS=2}" \
+    --tabs 'type: fixed; vwidth: 5mm; hwidth: 5mm; hcount: 0; vcount: 6; mindistance: 10mm;' \
     --cuts "type: mousebites" \
     --framing 'type: tightframe' \
     --tooling 'type: 4hole; size: 1.152mm; soldermaskmargin: 0.148mm; hoffset: 5mm; voffset: 2.5mm' \
