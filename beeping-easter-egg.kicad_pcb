@@ -146,7 +146,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -156,7 +156,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 27)
 			(uuid "14299ff6-1a66-4344-ac6b-daed2f57fe45")
 		)
 		(fp_circle
@@ -168,7 +167,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 27)
 			(uuid "9c2b6aa1-620f-4721-b9d6-ed237fb3f6b7")
 		)
 		(fp_text user "${REFERENCE}"
@@ -1932,7 +1930,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2030,7 +2028,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2040,7 +2038,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 27)
 			(uuid "4011d584-3acf-4899-abfd-b497a2ee2c0a")
 		)
 		(fp_circle
@@ -2052,7 +2049,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 27)
 			(uuid "55c58e97-708a-43e0-bf89-798f15037ce0")
 		)
 		(fp_text user "${REFERENCE}"
@@ -2636,7 +2632,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2646,7 +2642,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 27)
 			(uuid "f3bcb697-5f5b-40c7-9d96-0190e3eaa3dd")
 		)
 		(fp_circle
@@ -2658,7 +2653,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 27)
 			(uuid "84331bbd-deea-48a7-ab03-a0a2ca972950")
 		)
 		(fp_text user "${REFERENCE}"
@@ -3190,7 +3184,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
