@@ -5,9 +5,8 @@
 	(uuid "18231612-44e3-4d58-b7d2-9123d50293a3")
 	(paper "A5")
 	(title_block
-		(title "Beeping Easter Egg")
+		(title "github.com/DougTomanio/beeping-easter-egg")
 		(rev "B")
-		(company "github.com/DougTomanio/beeping-easter-egg")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
