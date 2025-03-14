@@ -9,7 +9,7 @@ if [ "$HOME" == "/home/kicad" ]; then
 fi
 
 kikit panelize \
-    --layout "hspace: 2mm; vspace: 2mm; cols: ${COLS=6} rows: ${ROWS=6};" \
+    --layout "hspace: 2mm; vspace: 2mm; cols: ${COLS=6}; rows: ${ROWS=6};" \
     --tabs 'type: corner; width: 5mm' \
     --cuts "type: mousebites" \
     --framing 'type: tightframe' \
@@ -21,7 +21,7 @@ kikit panelize \
 kikit fab jlcpcb /app/beeping-easter-egg-panelized.kicad_pcb /app/fab --assembly --schematic /app/beeping-easter-egg.kicad_sch
 
 kikit panelize \
-    --layout "hspace: 2mm; vspace: 2mm; cols: ${COLS=6} rows: ${ROWS=6};" \
+    --layout "hspace: 2mm; vspace: 2mm; cols: ${COLS=6}; rows: ${ROWS=6};" \
     --tabs 'type: corner; width: 5mm' \
     --cuts "type: mousebites" \
     --framing 'type: tightframe' \
