@@ -12,7 +12,7 @@
 
 ## Generate fabrication files
 ```
-docker run --rm -v ${PWD}:/app -e COLS=6 -e ROWS=6 kicad/kicad:9.0 bash /app/scripts/generate-fabrication-files.sh
+docker run --rm -v ${PWD}:/app -e COLS=5 -e ROWS=5 kicad/kicad:9.0 bash /app/scripts/generate-fabrication-files.sh
 ```
 
 ## Generate render pngs and schematic svg
