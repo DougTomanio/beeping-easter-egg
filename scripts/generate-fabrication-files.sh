@@ -9,8 +9,8 @@ if [ "$HOME" == "/home/kicad" ]; then
 fi
 
 kikit panelize \
-    --layout "hspace: 8mm; vspace: 8mm; rows: ${ROWS=4}; cols: ${COLS=3}" \
-    --tabs 'type: fixed; vwidth: 5mm; hwidth: 5mm; hcount: 0; vcount: 6; mindistance: 10mm;' \
+    --layout "hspace: 2mm; vspace: 2mm; rows: ${ROWS=6}; cols: ${COLS=6}" \
+    --tabs 'type: corner; width: 5mm' \
     --cuts "type: mousebites" \
     --framing 'type: tightframe' \
     --tooling 'type: 4hole; size: 1.152mm; soldermaskmargin: 0.148mm; hoffset: 5mm; voffset: 2.5mm' \
@@ -19,3 +19,15 @@ kikit panelize \
     "/app/beeping-easter-egg.kicad_pcb" "/app/beeping-easter-egg-panelized.kicad_pcb"
 
 kikit fab jlcpcb /app/beeping-easter-egg-panelized.kicad_pcb /app/fab --assembly --schematic /app/beeping-easter-egg.kicad_sch
+
+kikit panelize \
+    --layout "hspace: 2mm; vspace: 2mm; rows: ${ROWS=6}; cols: ${COLS=6}" \
+    --tabs 'type: corner; width: 5mm' \
+    --cuts "type: mousebites" \
+    --framing 'type: tightframe' \
+    --tooling 'type: 4hole; size: 1.152mm; soldermaskmargin: 0.148mm; hoffset: 5mm; voffset: 2.5mm' \
+    --fiducials "type: 3fid; hoffset: 20mm; voffset: 3.85mm; coppersize: 2mm" \
+    --text "type: simple; anchor: ml; orientation: 90deg; hoffset: 2.5mm; text: JLCJLCJLCJLC" \
+    "/app/beeping-easter-egg-cover.kicad_pcb" "/app/beeping-easter-egg-cover-panelized.kicad_pcb"
+
+kikit fab jlcpcb /app/beeping-easter-egg-cover-panelized.kicad_pcb /app/fab-cover --assembly --schematic /app/beeping-easter-egg.kicad_sch
